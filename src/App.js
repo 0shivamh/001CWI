@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/header.component";
+import Nav from "./Components/nav.component";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav/>
+      <Header/>
+
+      <hr></hr>
+      <p class='cop' >
+            Copyright &#169;2017-2021 Some rights reserved | <a href='https://www.cwipedia.in' >cwipedia.in</a>
+</p>
     </div>
   );
 }
